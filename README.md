@@ -8,7 +8,7 @@ RTSP Stream to WebBrowser over WebRTC based on Pion (full native! not using ffmp
 if you need RTSPtoWSMP4f use https://github.com/deepch/RTSPtoWSMP4f
 
 
-![RTSPtoWebRTC image](doc/demo4.png)
+![RTSPtoWebRTC image](image.png)
 
 ## WebRTC Stream Viewer
 
@@ -20,7 +20,7 @@ The WebRTC Stream Viewer provides a modern, user-friendly interface for viewing 
 - **Live timestamps** - displays current date and time on each stream
 - **Camera route information** - shows the camera route/identifier on each feed
 
-![WebRTC Stream Viewer](doc/webrtc-stream-viewer.png)
+![WebRTC Stream Viewer](image.png)
 
 *The WebRTC Stream Viewer showing live feeds from multiple RTSP cameras with connection status, timestamps, and camera route information.*
 
