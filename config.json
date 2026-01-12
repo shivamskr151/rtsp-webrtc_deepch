@@ -1,0 +1,27 @@
+{
+  "server": {
+    "http_port": ":8083",
+    "ice_servers": [
+      "stun:stun.l.google.com:19302",
+      "turn:turn.variphi.com:3478"
+    ],
+    "ice_username": "variphi",
+    "ice_credential": "variphi2024"
+  },
+  "streams": {
+    "demo1": {
+      "on_demand": true,
+      "disable_audio": true,
+      "debug": true,
+      "viewer_check_interval": 10,
+      "url": "rtsp://admin:Tatva%40321@183.82.113.87:554/Streaming/Channels/101"
+    },
+    "demo2": {
+      "on_demand": true,
+      "disable_audio": true,
+      "debug": true,
+      "viewer_check_interval": 30,
+      "url": "rtsp://admin:Tatva%40321@183.82.113.87:554/Streaming/Channels/102"
+    }
+  }
+}

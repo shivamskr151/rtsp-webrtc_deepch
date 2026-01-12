@@ -1,0 +1,14 @@
+services:
+  rtsp-to-webrtc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rtsp-to-webrtc
+    ports:
+      - "8083:8083"
+    volumes:
+      - ./config.json:/go/src/app/config.json
+    restart: unless-stopped
+    environment:
+      - GO111MODULE=on
+      - GIN_MODE=release
